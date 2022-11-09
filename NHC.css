@@ -1,0 +1,54 @@
+.center
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.menu
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+
+ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    width: 67%;
+    text-align: center;
+}
+  
+ul li
+{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li:hover
+{
+    background-color: #111;
+}
+
+a
+{
+    color: rgb(0, 85, 255);
+    text-decoration: none;
+}
+
+a:hover
+{
+    color: rgb(60, 179, 113);
+    text-decoration: none;
+}
